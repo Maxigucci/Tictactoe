@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainGame{
+    height: 300px;
+}
+
+header{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+    background: #0a0a0a;
+}
+
+.score{
+    height: 10vh;
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-family: times new roman;
+    align-items: center;
+    background: #0a0a0a;
+} 
+
+.game{
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#FF8960, #D02020);
+}
+
+.board{
+    height: 80%;
+    width: 80%;
+    font-family: times new roman;
+    font-size: 30px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    background: red;
+}
+
+.cell{
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: brown;
+    font-weight: bold;
+}
+
+
+.setCharacterWindow{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+.setCharacterWindow .container{
+    height: 60%;
+    width: 80%;
+    backdrop-filter: blur(10px);
+    border: solid 2px black;
+    border-radius: 20px;
+    background: ;
+}
+
+.main{
+    height: 60%;
+    background: ;
+}
+
+.main h2{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: courier;
+}
+
+.main .characterBox{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: ;
+}
+
+.main .characters{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    width: 50%;
+    height: 40%;
+    border-radius: 20px;
+    background: white;
+}
+
+.main .character{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: yellow;
+}
+
+.main .x{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main .o{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.start{
+    height: 40%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.start button{
+    height: 50px;
+    width: 50%;
+    background: white;
+    border: none;
+    border-radius: 20px;
+}
